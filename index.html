@@ -12,45 +12,41 @@
 <body>
     
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <!-- possible href needed with nav bar -->
-        <a class="navbar-brand">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-brand mb-1 h1">Navbar</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-      
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">About Me <span class="sr-only">(current)</span></a>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact Me</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">About Me</a>
-                <a class="dropdown-item" href="#">Portfolio</a>
-                <a class="dropdown-item" href="#">Contact Me</a>
-              </div>
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
         </div>
       </nav>
     <div class="container">
       <div class="row">
-        <div class="col-md-8">
+        <div class="col-lg-8">
           <div class="page-header">
             <h1>About Me</h1>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="https://placehold.it/150x150" alt="Placeholder" class="img-thumbnail">
+                </div>
+                <div class="col-md-9">
+                <p>
+                    My name is Jesse Ziros
+                </p>
+                    </div>
+                </div>
+            </div>
           </div>
         </div>
       </div>
